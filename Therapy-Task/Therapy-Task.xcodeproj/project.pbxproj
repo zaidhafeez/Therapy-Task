@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F11B45ED2995102A007397A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B45EC2995102A007397A6 /* AppDelegate.swift */; };
+		F11B45EF2995102A007397A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B45EE2995102A007397A6 /* SceneDelegate.swift */; };
+		F11B45F12995102A007397A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B45F02995102A007397A6 /* ViewController.swift */; };
+		F11B45F42995102A007397A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11B45F22995102A007397A6 /* Main.storyboard */; };
+		F11B45F62995102C007397A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B45F52995102C007397A6 /* Assets.xcassets */; };
+		F11B45F92995102C007397A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11B45F72995102C007397A6 /* LaunchScreen.storyboard */; };
+		F11B460129954108007397A6 /* MasterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B460029954108007397A6 /* MasterTabBarController.swift */; };
+		F11B4603299543BC007397A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4602299543BC007397A6 /* HomeViewController.swift */; };
+		F11B4605299543DE007397A6 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4604299543DE007397A6 /* AppointmentViewController.swift */; };
+		F11B4607299543EA007397A6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4606299543EA007397A6 /* SearchViewController.swift */; };
+		F11B4609299543F6007397A6 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4608299543F6007397A6 /* TaskViewController.swift */; };
+		F11B460B29954401007397A6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B460A29954401007397A6 /* ProfileViewController.swift */; };
+		F11B4611299545A7007397A6 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4610299545A7007397A6 /* NSObjectExtension.swift */; };
+		F11B4613299545F7007397A6 /* ControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4612299545F7007397A6 /* ControllerType.swift */; };
+		F11B4615299546D5007397A6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4614299546D5007397A6 /* UIViewControllerExtension.swift */; };
+		F11B461829958501007397A6 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B461729958501007397A6 /* Color.xcassets */; };
+		F11B461B299585B7007397A6 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B461A299585B7007397A6 /* AppColors.swift */; };
+		F11B461F29958B84007397A6 /* TherapyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B461D29958B84007397A6 /* TherapyCollectionViewCell.swift */; };
+		F11B462029958B84007397A6 /* TherapyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11B461E29958B84007397A6 /* TherapyCollectionViewCell.xib */; };
+		F11B4622299597E8007397A6 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B4621299597E8007397A6 /* Observable.swift */; };
+		F11B46242995992F007397A6 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B46232995992F007397A6 /* SearchViewModel.swift */; };
+		F11B462829959966007397A6 /* BaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B462729959966007397A6 /* BaseAPIClient.swift */; };
+		F11B462A29959B26007397A6 /* SearchUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B462929959B26007397A6 /* SearchUseCase.swift */; };
+		F11B462C29959BD3007397A6 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B462B29959BD2007397A6 /* AppDependency.swift */; };
+		F11B462E29959D80007397A6 /* TherapyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B462D29959D80007397A6 /* TherapyList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F11B45E92995102A007397A6 /* Therapy-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Therapy-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11B45EC2995102A007397A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F11B45EE2995102A007397A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F11B45F02995102A007397A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F11B45F32995102A007397A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F11B45F52995102C007397A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F11B45F82995102C007397A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F11B45FA2995102C007397A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F11B460029954108007397A6 /* MasterTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTabBarController.swift; sourceTree = "<group>"; };
+		F11B4602299543BC007397A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F11B4604299543DE007397A6 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		F11B4606299543EA007397A6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F11B4608299543F6007397A6 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		F11B460A29954401007397A6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F11B4610299545A7007397A6 /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		F11B4612299545F7007397A6 /* ControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerType.swift; sourceTree = "<group>"; };
+		F11B4614299546D5007397A6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		F11B461729958501007397A6 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		F11B461A299585B7007397A6 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		F11B461D29958B84007397A6 /* TherapyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F11B461E29958B84007397A6 /* TherapyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TherapyCollectionViewCell.xib; sourceTree = "<group>"; };
+		F11B4621299597E8007397A6 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		F11B46232995992F007397A6 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		F11B462729959966007397A6 /* BaseAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIClient.swift; sourceTree = "<group>"; };
+		F11B462929959B26007397A6 /* SearchUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUseCase.swift; sourceTree = "<group>"; };
+		F11B462B29959BD2007397A6 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		F11B462D29959D80007397A6 /* TherapyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TherapyList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F11B45E62995102A007397A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F11B45E02995102A007397A6 = {
+			isa = PBXGroup;
+			children = (
+				F11B45EB2995102A007397A6 /* Therapy-Task */,
+				F11B45EA2995102A007397A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F11B45EA2995102A007397A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F11B45E92995102A007397A6 /* Therapy-Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F11B45EB2995102A007397A6 /* Therapy-Task */ = {
+			isa = PBXGroup;
+			children = (
+				F11B462629959951007397A6 /* Model */,
+				F11B46252995993D007397A6 /* NetworkManager */,
+				F11B461C29958B40007397A6 /* XIBs */,
+				F11B460D29954567007397A6 /* Shared */,
+				F11B460C29954414007397A6 /* Screen */,
+				F11B45EC2995102A007397A6 /* AppDelegate.swift */,
+				F11B45EE2995102A007397A6 /* SceneDelegate.swift */,
+				F11B45F02995102A007397A6 /* ViewController.swift */,
+				F11B45F22995102A007397A6 /* Main.storyboard */,
+				F11B45F52995102C007397A6 /* Assets.xcassets */,
+				F11B45F72995102C007397A6 /* LaunchScreen.storyboard */,
+				F11B45FA2995102C007397A6 /* Info.plist */,
+				F11B461729958501007397A6 /* Color.xcassets */,
+			);
+			path = "Therapy-Task";
+			sourceTree = "<group>";
+		};
+		F11B460C29954414007397A6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F11B460029954108007397A6 /* MasterTabBarController.swift */,
+				F11B4604299543DE007397A6 /* AppointmentViewController.swift */,
+				F11B4606299543EA007397A6 /* SearchViewController.swift */,
+				F11B4608299543F6007397A6 /* TaskViewController.swift */,
+				F11B460A29954401007397A6 /* ProfileViewController.swift */,
+				F11B4602299543BC007397A6 /* HomeViewController.swift */,
+				F11B46232995992F007397A6 /* SearchViewModel.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		F11B460D29954567007397A6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F11B460F29954586007397A6 /* Extension */,
+				F11B460E29954577007397A6 /* Utilities */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F11B460E29954577007397A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F11B4612299545F7007397A6 /* ControllerType.swift */,
+				F11B461A299585B7007397A6 /* AppColors.swift */,
+				F11B4621299597E8007397A6 /* Observable.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F11B460F29954586007397A6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F11B4610299545A7007397A6 /* NSObjectExtension.swift */,
+				F11B4614299546D5007397A6 /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F11B461C29958B40007397A6 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				F11B461D29958B84007397A6 /* TherapyCollectionViewCell.swift */,
+				F11B461E29958B84007397A6 /* TherapyCollectionViewCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		F11B46252995993D007397A6 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				F11B462729959966007397A6 /* BaseAPIClient.swift */,
+				F11B462929959B26007397A6 /* SearchUseCase.swift */,
+				F11B462B29959BD2007397A6 /* AppDependency.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		F11B462629959951007397A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F11B462D29959D80007397A6 /* TherapyList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F11B45E82995102A007397A6 /* Therapy-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11B45FD2995102C007397A6 /* Build configuration list for PBXNativeTarget "Therapy-Task" */;
+			buildPhases = (
+				F11B45E52995102A007397A6 /* Sources */,
+				F11B45E62995102A007397A6 /* Frameworks */,
+				F11B45E72995102A007397A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Therapy-Task";
+			productName = "Therapy-Task";
+			productReference = F11B45E92995102A007397A6 /* Therapy-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F11B45E12995102A007397A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F11B45E82995102A007397A6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F11B45E42995102A007397A6 /* Build configuration list for PBXProject "Therapy-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F11B45E02995102A007397A6;
+			productRefGroup = F11B45EA2995102A007397A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F11B45E82995102A007397A6 /* Therapy-Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F11B45E72995102A007397A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11B45F92995102C007397A6 /* LaunchScreen.storyboard in Resources */,
+				F11B461829958501007397A6 /* Color.xcassets in Resources */,
+				F11B462029958B84007397A6 /* TherapyCollectionViewCell.xib in Resources */,
+				F11B45F62995102C007397A6 /* Assets.xcassets in Resources */,
+				F11B45F42995102A007397A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F11B45E52995102A007397A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11B4605299543DE007397A6 /* AppointmentViewController.swift in Sources */,
+				F11B4622299597E8007397A6 /* Observable.swift in Sources */,
+				F11B46242995992F007397A6 /* SearchViewModel.swift in Sources */,
+				F11B4611299545A7007397A6 /* NSObjectExtension.swift in Sources */,
+				F11B4607299543EA007397A6 /* SearchViewController.swift in Sources */,
+				F11B462E29959D80007397A6 /* TherapyList.swift in Sources */,
+				F11B462C29959BD3007397A6 /* AppDependency.swift in Sources */,
+				F11B461B299585B7007397A6 /* AppColors.swift in Sources */,
+				F11B461F29958B84007397A6 /* TherapyCollectionViewCell.swift in Sources */,
+				F11B4603299543BC007397A6 /* HomeViewController.swift in Sources */,
+				F11B45F12995102A007397A6 /* ViewController.swift in Sources */,
+				F11B45ED2995102A007397A6 /* AppDelegate.swift in Sources */,
+				F11B4609299543F6007397A6 /* TaskViewController.swift in Sources */,
+				F11B460B29954401007397A6 /* ProfileViewController.swift in Sources */,
+				F11B4615299546D5007397A6 /* UIViewControllerExtension.swift in Sources */,
+				F11B45EF2995102A007397A6 /* SceneDelegate.swift in Sources */,
+				F11B462829959966007397A6 /* BaseAPIClient.swift in Sources */,
+				F11B4613299545F7007397A6 /* ControllerType.swift in Sources */,
+				F11B460129954108007397A6 /* MasterTabBarController.swift in Sources */,
+				F11B462A29959B26007397A6 /* SearchUseCase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F11B45F22995102A007397A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11B45F32995102A007397A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F11B45F72995102C007397A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F11B45F82995102C007397A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F11B45FB2995102C007397A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F11B45FC2995102C007397A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11B45FE2995102C007397A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Therapy-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remotestate.Therapy-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F11B45FF2995102C007397A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Therapy-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remotestate.Therapy-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F11B45E42995102A007397A6 /* Build configuration list for PBXProject "Therapy-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11B45FB2995102C007397A6 /* Debug */,
+				F11B45FC2995102C007397A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11B45FD2995102C007397A6 /* Build configuration list for PBXNativeTarget "Therapy-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11B45FE2995102C007397A6 /* Debug */,
+				F11B45FF2995102C007397A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F11B45E12995102A007397A6 /* Project object */;
+}
